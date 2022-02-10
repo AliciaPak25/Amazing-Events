@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./styles/amazingstyles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/logo.png" alt="logo">
+            <h1>Amazing Events</h1>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="próximoseventos.html">Próximos Eventos</a>
+            <a href="eventospasados.html">Eventos Pasados</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+
+            <fieldset>
+                <legend>¡Registrate!</legend>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" name="Nombres" id="nombre" placeholder="Nombres" />
+
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="email" placeholder="Email" />
+            
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="Contrasena" id="contraseña" placeholder="Contraseña" />
+
+                    <label for="contraseña2">Contraseña (Confirmación)</label>
+                    <input type="password" name="Contrasena_confirmacion" id="contraseña2" placeholder="Confirmar contraseña" />
+            
+                    <label for="usuario">Tipo de Usuario</label>
+                    <select name="Usuario" id="usuario">
+                        <option value="No seleccionado">Seleccione...</option>
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Docente">Docente</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+
+                    <div class="checkbox">
+                        <input type="checkbox" name="Aceptacion" id="aceptar" value="si" class="inputick">
+                        <label for="aceptar">Acepto los términos y condiciones</label>
+                    </div>
+            </fieldset>
+
+            <input type="submit" value="Continuar" class="submit" />
+        </form>
+    </main>
+    <footer>
+        <p>Alicia Pak | @2022</p>
+        <a href="./summary.html" class="admin">Admin</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Amazing Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/tabla.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./assets/logo.png" alt="logo">
+      <h1>Amazing Events</h1>
+  </div>
+  <nav class="navbar navbar-expand-md">
+    <a href="index.html">Inicio</a>
+            <a href="próximoseventos.html">Próximos Eventos</a>
+            <a href="eventospasados.html">Eventos Pasados</a>
+            <a href="registro.html">Registro</a>
+  </nav>
+  </header>
+  <main>
+    <div class="tableContainer table-responsive">
+        <table id="tablaData" class="table table-sm table-dark table-hover">
+                <thead>
+                  <tr id="Categoria">
+                    <th scope="row">Categorías</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr id="ingreso">
+                    <th scope="row">Ingreso por Categorías</th> 
+                  </tr>
+
+                  <tr id="porcentajeCategorias">
+                    <th scope="row">Porcentaje de asistencia por categorías</th>
+                  </tr>
+                </tbody>
+        </table>
+        
+        <table class="table table-dark table-striped">
+
+                  <tr id="mayor">
+                    <th scope="row">Mayor porcentaje de audiencia</th>
+                  </tr>
+                
+                  <tr id="menor">
+                    <th scope="row">Menor porcentaje de audiencia</th>
+                  </tr>
+
+                  <tr id="capacidad">
+                    <th scope="row">Evento con mayor capacidad</th>
+                  </tr>
+        </table>
+   
+    </div>
+  </main>
+  <footer>
+    <p>Derechos reservados: Alicia Pak | @2022</p>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./javascript/summary.js"></script>
+</body>
+</html>

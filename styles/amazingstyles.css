@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* general */
+body{
+    background-image: url(../assets/background-page.jpg);
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+main{
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+h1{
+    color: rgb(196, 7, 196);
+    border-radius: 1em;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-image: url(../assets/background.jpg);
+    width: 100%;
+}
+nav a{ 
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(42, 46, 48, 0.521);
+}   
+h2{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.1em;
+}
+footer{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin{
+    position: absolute;
+    right: 10%;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(187, 10, 178, 0.589);
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 4px rgb(153, 51, 56);
+    box-shadow: 3px 3px 3px rebeccapurple;
+    
+}
+/* index */
+.text{
+    margin-bottom: 1em;
+}
+.searchers{
+    display: flex;
+    text-align: left;
+}
+#searchInput{
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+#categoryselector{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+.events{
+    display: flex !important; 
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-bottom: 1.5em !important;
+    
+}
+.cards{
+    display: flex;
+    background-size: cover;
+    background-position: 25% 15%;
+    height: 10em;
+    width: 35em;
+}
+.photos{
+    width: 20em;
+    height: 10em;
+    border-radius: 1em 0 0 1em;
+}
+.divpes{
+    background-color: rgba(0, 0, 0, 0.452);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 1em 1em 0;
+    padding: 0.5em;
+}
+.category{
+    border: 1px solid white;
+    border-radius: 1em;
+    color: white;
+    text-decoration: underline;
+    margin-top: 0.5em;
+    margin-right: 19%;
+    margin-left: 19%;
+    text-align: center;
+}
+h3{
+    margin-bottom: 0.5em !important;
+    font-weight: bold !important;
+}
+span{
+    color: rgba(209, 4, 182, 0.877);
+}
+/* proximos_eventos */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eventstitle{
+    background-color: rgba(205, 26, 221, 0.377);
+    display: inline-block;
+    border: 3px dotted rgba(226, 43, 202, 0.658) ;
+    border-radius: 0.5em;
+}
+.divcards{
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+}
+/* eventos_pasados */
+.pastfuture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
+    width: 30em;
+    
+}
+/* registro */
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    border: none;
+}
+legend{
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(205, 26, 221, 0.377);
+    display: inline-block;
+    border: 3px dotted rgba(226, 43, 202, 0.658) ;
+    border-radius: 0.5em;
+}
+label{
+    margin-bottom: 0.5em;
+    color: rgb(196, 21, 152);
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 1em;
+}
+input{
+    margin-bottom: 1em;
+    width: 20em;
+    height: 2em;
+}
+select{
+    margin-bottom: 1em;
+    width: 20em;
+    height: 2em;
+}
+.checkbox{
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.inputick{
+    width: 2em;
+    height: 1em;
+}
+.submit{
+    width: 10em;
+    color: white;
+    background-color: rgba(187, 10, 178, 0.589);
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 4px rgb(153, 51, 56);
+    box-shadow: 3px 3px 3px rebeccapurple;
+    margin-top: 2em;
+}
+/* detalle */
+.detail{
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    width: 60em;
+}
+.avengersdetail{
+    display: flex;
+    height: 25em;
+    width: 25em;
+}
+.divdetail{
+    background-color: rgba(0, 0, 0, 0.452);    
+}
+.divdetail >p{
+    text-align: left;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    padding: 1em;
+}
+.dateandplace{
+    color: rgba(209, 4, 182, 0.877);
+    display: flex;
+    justify-content: center;
+}
+/* media queries */
+@media (min-width: 400px) and (max-width: 576px){
+    body{
+        width: 100%;
+        min-height: 100vh;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .searchers{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        font-size: 0.8rem;
+    }
+    .cards{
+        width: 25em;
+        display: flex;
+        justify-content: center;
+    }
+    .photos{
+        width: 10em;
+    }
+    future{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+   
+    .media{
+        width: 30em;
+    }
+    .divcards{
+        width: 60em;
+        font-size: 2vw;
+    }
+}
+@media (min-width: 490px) and (max-width: 576px){
+.pastfuture{
+    position: relative;
+    right: 8%;
+}
+}
